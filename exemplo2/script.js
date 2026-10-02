@@ -25,4 +25,11 @@ function alterar() {
     titulo.innerHTML = "Analu para presidente"
     subtitulo.innerText = "Só que não"
     paragrafo.innerText = "texto mudado pelo jS"
+    
+    // alterando elemento da classe
+    caixa[0].innerText = "Primeiro parágrafo alterado"
+    caixa[1].innerText = "Segundo parágrado alterado"
+
+    // alterando imagem
+    imagem.src = "https://i.pinimg.com/736x/1e/af/d4/1eafd40c9c8782accc539ef52ad2c2ad.jpg"
 }
